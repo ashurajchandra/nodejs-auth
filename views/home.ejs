@@ -1,0 +1,32 @@
+<!-- home layout -->
+<div id="image-container">
+  <img src="https://img.techpowerup.org/200629/bg-01.jpg" id="abstract-img" />
+</div>
+<div id="login-container">
+<h3 id="title-head">Authrex - Multiple authentication support system</h3>
+<!-- <h5><%= title %></h5> -->
+
+<ul>
+  <%if(locals.user){%>
+  <li><a href="/users/profile">
+      <%= user.name%></li>
+      </a>
+  <li>
+    <a href="/users/signOut">Sign Out</a>
+  </li>
+  <p>
+  <a href="/users/resetPasswordPage">
+    Reset Password!
+  </a>
+</p>
+  <%}else{%>
+  <li>
+    <a href="/users/signIn">Sign In</a>
+  </li>
+  <li>
+    <a href="/users/signUp">Sign Up</a>
+  </li>
+  <%}%>
+</ul>
+
+</div>

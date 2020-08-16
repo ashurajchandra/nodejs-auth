@@ -1,0 +1,120 @@
+/* ====styles for body ======== */
+
+body {
+  margin: 0;
+}
+
+h1,
+h3 {
+  font-family: Times;
+}
+
+/* ======stying the login/signup form======= */
+
+.authForm {
+  display: inline-block;
+  height: auto;
+  width: 400px;
+  position: relative;
+  margin-left: 10%;
+  top: -35%;
+}
+
+/* =====styling forgot password link========= */
+
+.forgot-password {
+  display: inline-block;
+  position: absolute;
+  margin-top: 43%;
+  margin-left: -41%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: slategray;
+}
+
+#abstract-img {
+  height: 100vh;
+  width: 50vw;
+}
+
+/* =====styling google auth link===== */
+
+.google-auth {
+  display: inline-block;
+  margin-top: 28%;
+  position: absolute;
+  margin-left: -37%;
+}
+
+.google-auth > span {
+  display: inline-block;
+  color: grey;
+}
+
+.google-auth > a {
+  display: inline-block;
+  margin-left: -15%;
+}
+
+/* ======styling login container====== */
+
+#login-container {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 40vw;
+}
+
+#image-container {
+  display: inline-block;
+}
+
+.authform > h3 {
+  margin-left: 19%;
+  color: teal;
+  margin-bottom: 7%;
+}
+
+/* ======styling input tags====== */
+
+input {
+  margin-left: 20%;
+  display: inline-block;
+  height: 40px;
+  width: 244px;
+  margin-bottom: 5%;
+}
+
+/* ======styling submit button======= */
+
+#send_button {
+  display: inline-block;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: -40%;
+  border: 1px;
+  color: teal;
+  height: 34px;
+  width: 91px;
+}
+
+#title-head {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -33%;
+}
+
+#reset-head {
+  position: absolute;
+  margin-top: -31%;
+  margin-left: 19%;
+}

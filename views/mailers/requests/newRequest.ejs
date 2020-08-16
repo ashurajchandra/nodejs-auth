@@ -1,0 +1,10 @@
+<!-- view wchich will be sent to mailbox -->
+<div>
+  <p>Hi! <%= request.name%></p>
+  <br />
+  <br />
+  <p>To reset your password click link below</p>
+  <a href="http://localhost:8000/users/passwordReset/<%= request.email%>"
+    >click here!</a
+  >
+</div>
